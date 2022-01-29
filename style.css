@@ -94,6 +94,10 @@ input {
   transform: translateY(1px);
 }
 
+.moon:active {
+  transform: translateY(1px);
+}
+
 /*---------------Fin de barre de recherche----------------------*/
 /*------------------------Contenue------------------------------*/
 .ctnue {
@@ -126,7 +130,7 @@ input {
 .titetdate {
   height: 65px;
   width: 400px;
-  margin-left: 40px;
+  margin-left: 15px;
 }
 
 .titetdate h2 {
