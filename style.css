@@ -105,6 +105,14 @@ input {
   border-radius: 5px;
 }
 
+#lune {
+  display: flex;
+}
+
+#sun {
+  display: none;
+}
+
 /*---------------Fin de barre de recherche----------------------*/
 /*------------------------Contenue------------------------------*/
 .ctnue {
@@ -251,9 +259,11 @@ input {
   width: 352px;
 }
 
-/*--------------------- Dark Mode -------------------------------*/
-.corps .dark-mode {
-  background: #141D2F;
+i {
+  font-size: 20px;
 }
+
+/*--------------------- Dark Mode -------------------------------*/
+/* ------------------------- Responsive-------------------------*/
 
 /*# sourceMappingURL=style.css.map */

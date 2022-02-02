@@ -8,14 +8,17 @@
 
     <title>Devfinder</title>
 </head>
-<body id="corps" class="dark-mode">
+<body>
 
     <main>
     
         <div class="title"> <!--En-tête-->
-            <h2>devfinder</h2>   
-            <img class="moon" src="svgmoon.svg" alt="icon dark et lune" onclick="toggleDarkLight()" 
-            title="Toggle dark/light mode"> 
+            <h2>devfinder</h2>
+            <div class="icon">
+                <img id="lune" class="moon" src="svgmoon.svg" alt="icon dark et lune"> 
+                <img id="sun" src="light.svg"  alt="icone de soleil">  
+            </div>  
+             
         </div> <!--Fin de mon en-tête-->
 
 
@@ -73,12 +76,12 @@
                     <div class="alignbloc2"> <!--Alignement bloc reseau-->
                         <div class="blocreseau">
                             <div class="locandbird">
-                                <p> <img src="loc.svg" alt="icone localisation"> San Francisco</p>
-                                <p><img src="twit.svg" alt="logo de twitter"> Not available</p>
+                                <p> <i class="fas fa-map-marker-alt"></i> San Francisco</p>
+                                <p><i class="fab fa-twitter"></i> Not available</p>
                             </div>
                             <div class="lienetgit">
-                                <p><img src="url.svg" alt="icon url"> https://github.blog</p>
-                                <p><img src="build.svg" alt="icon building"> @github</p>
+                                <p><i class="fas fa-link"></i> https://github.blog</p>
+                                <p><i class="fas fa-building"></i> @github</p>
                             </div>
                         </div>
                     </div>
@@ -90,5 +93,6 @@
 
     
 <script src="dark.js"></script>
+<script src="https://kit.fontawesome.com/45e38e596f.js" crossorigin="anonymous"></script>
 </body>
 </html>
