@@ -263,7 +263,11 @@ i {
   font-size: 20px;
 }
 
-/*--------------------- Dark Mode -------------------------------*/
 /* ------------------------- Responsive-------------------------*/
+@media screen and (max-width: 768px) {
+  main {
+    width: 80%;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
