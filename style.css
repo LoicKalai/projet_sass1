@@ -98,6 +98,13 @@ input {
   transform: translateY(1px);
 }
 
+.moon:hover {
+  color: #000;
+  opacity: 0.6;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
 /*---------------Fin de barre de recherche----------------------*/
 /*------------------------Contenue------------------------------*/
 .ctnue {
@@ -242,6 +249,11 @@ input {
   font-size: 15px;
   color: #4B6A9B;
   width: 352px;
+}
+
+/*--------------------- Dark Mode -------------------------------*/
+.corps .dark-mode {
+  background: #141D2F;
 }
 
 /*# sourceMappingURL=style.css.map */
